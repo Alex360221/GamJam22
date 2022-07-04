@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"E:\\GameJam2022\\GamJam22\\GameJam\\Source\\GameJam\\GameJam.Build.cs",
-		"E:\\GameJam2022\\GamJam22\\GameJam\\Source\\GameJam.Target.cs",
-		"E:\\GameJam2022\\GamJam22\\GameJam\\Source\\GameJamEditor.Target.cs"
+		"E:\\Game Jam\\Game\\GamJam22\\GameJam\\Source\\GameJam\\GameJam.Build.cs",
+		"E:\\Game Jam\\Game\\GamJam22\\GameJam\\Source\\GameJam.Target.cs",
+		"E:\\Game Jam\\Game\\GamJam22\\GameJam\\Source\\GameJamEditor.Target.cs"
 	],
 	"EngineVersion": "4.27.2"
 }
