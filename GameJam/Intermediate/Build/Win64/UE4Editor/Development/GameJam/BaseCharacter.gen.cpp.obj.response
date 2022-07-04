@@ -231,8 +231,8 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Inc\GameJam"
-/I "E:\Game Jam\Game\GamJam22\GameJam\Source"
+/I E:\GameJam2022\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Inc\GameJam
+/I E:\GameJam2022\GamJam22\GameJam\Source
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -262,12 +262,12 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\GameJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\GameJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\GameJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Inc\GameJam\BaseCharacter.gen.cpp"
-/FI"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\Definitions.GameJam.h"
-/Fo"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\BaseCharacter.gen.cpp.obj"
+/FI"E:\GameJam2022\GamJam22\GameJam\Intermediate\Build\Win64\GameJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"E:\GameJam2022\GamJam22\GameJam\Intermediate\Build\Win64\GameJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"E:\GameJam2022\GamJam22\GameJam\Intermediate\Build\Win64\GameJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"E:\GameJam2022\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Inc\GameJam\BaseCharacter.gen.cpp"
+/FI"E:\GameJam2022\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\Definitions.GameJam.h"
+/Fo"E:\GameJam2022\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\BaseCharacter.gen.cpp.obj"
 /TP
 /GR-
 /W4
