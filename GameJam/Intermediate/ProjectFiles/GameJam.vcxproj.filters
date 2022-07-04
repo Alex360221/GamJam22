@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GameJam.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{882CDD76-937D-4F4D-9605-7DF279558F3E}</UniqueIdentifier>
+      <UniqueIdentifier>{9EDB2C13-B868-4854-B600-77A3AA9F9F19}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GameJam.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,10 @@
     <None Include="..\..\Source\GameJamEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.gitattributes" />
+    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{0A79EAF0-77B9-4923-8A85-34684673796F}</UniqueIdentifier>
+      <UniqueIdentifier>{A5DCA8F4-0369-4E35-BD2D-2A4867EB360A}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +25,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\GameJam">
-      <UniqueIdentifier>{11331A84-FF2F-4498-B609-F849EDA09EA1}</UniqueIdentifier>
+      <UniqueIdentifier>{EEF8D89F-BBD3-49A3-8B40-A8598A08A634}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\GameJam\BaseCharacter.cpp">
       <Filter>Source\GameJam</Filter>

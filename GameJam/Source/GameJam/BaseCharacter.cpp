@@ -10,6 +10,9 @@ ABaseCharacter::ABaseCharacter()
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
 
+	playerMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Player Mesh"));
+
+
 }
 
 // Called when the game starts or when spawned
@@ -30,6 +33,13 @@ void ABaseCharacter::Tick(float DeltaTime)
 void ABaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
+	// Player Movement
+	PlayerInputComponent->BindAxis("MoveX", this, &ABaseCharacter::MoveForward);
+	PlayerInputComponent->BindAxis("MoveY", this, &ABaseCharacter::MoveRight);
+
+	// Player Look Movement
+	PlayerInputComponent->BindAxis("Turn", this, &ABaseCharacter::TurnAtRate);
+	PlayerInputComponent->BindAxis("LookUp", this, &ABaseCharacter::LookUpRate);
 
 }
 

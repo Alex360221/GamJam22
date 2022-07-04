@@ -1,3 +1,32 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\Game Jam\Game\GamJam22).
-  Target is up to date
-  Total execution time: 1.12 seconds
+  Creating makefile for GameJamEditor (no existing makefile)
+  Parsing headers for GameJamEditor
+    Running UnrealHeaderTool "E:\Game Jam\Game\GamJam22\GameJam\GameJam.uproject" "E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\GameJamEditor\Development\GameJamEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\up889272\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  LogInit: Display: Loading text-based GConfig....
+  Reflection code generated for GameJamEditor in 3.0964495 seconds
+  Building GameJamEditor...
+  Using Visual Studio 2019 14.29.30133 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Distributing 5 actions to XGE
+  --------------------Build System Warning---------------------------------------
+  License is invalid:
+      License information is invalid. Please try reloading your license file using the Coordinator Monitor application on the Coordinator machine, or reinstall IncrediBuild.
+      This build will run in standalone mode.
+  
+  -------------------------------------------------------------------------------
+  --------------------Project: Default-------------------------------------------
+  BaseCharacter.gen.cpp (0:00.81 at +0:00)
+  BaseCharacter.cpp (0:00.75 at +0:00)
+  UE4Editor-GameJam.dll (0:01.12 at +0:01)
+     Creating library E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\UE4Editor-GameJam.suppressed.lib and object E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\UE4Editor-GameJam.suppressed.exp
+  UE4Editor-GameJam.lib (0:00.12 at +0:02)
+     Creating library E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\UE4Editor-GameJam.lib and object E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\UE4Editor-GameJam.exp
+  GameJamEditor.target (0:00.57 at +0:02)
+  ---------------------- Done ----------------------
+  
+      Rebuild All: 1 succeeded, 0 failed, 0 skipped
+  
+  1 build system warning(s):
+     - License is invalid
+  
+  Total time in XGE executor: 4.09 seconds
+  Total execution time: 8.84 seconds

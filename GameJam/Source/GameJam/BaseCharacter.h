@@ -26,6 +26,13 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
-	class UStaicMeshComponent* playerMesh;
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		class UStaticMeshComponent* playerMesh;
+
+	void MoveForward(float axis) { AddMovementInput(GetActorForwardVector(), axis); }
+	void MoveRight(float axis) { AddMovementInput(GetActorRightVector(), axis); }
+
+	void TurnAtRate(float axis) { ABaseCharacter::AddControllerYawInput(axis); }
+	void LookUpRate(float axis) { ABaseCharacter::AddControllerPitchInput(axis); }
 
 };
