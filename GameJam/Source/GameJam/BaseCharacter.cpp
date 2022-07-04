@@ -2,6 +2,7 @@
 
 
 #include "BaseCharacter.h"
+#include "Components/StaticMeshComponent.h"
 
 // Sets default values
 ABaseCharacter::ABaseCharacter()
