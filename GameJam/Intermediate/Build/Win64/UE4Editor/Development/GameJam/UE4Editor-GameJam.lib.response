@@ -1,0 +1,15 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GameJam.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\GameJamEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\BaseCharacter.cpp.obj"
+"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\GameJam.cpp.obj"
+"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\BaseCharacter.gen.cpp.obj"
+"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\GameJam.init.gen.cpp.obj"
+"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\Default.rc2.res"
+/OUT:"E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\UE4Editor-GameJam.lib"

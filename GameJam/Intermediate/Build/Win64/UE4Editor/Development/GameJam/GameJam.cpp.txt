@@ -1,0 +1,2 @@
+E:\Game Jam\Game\GamJam22\GameJam\Intermediate\Build\Win64\UE4Editor\Development\GameJam\Definitions.GameJam.h
+E:\Game Jam\Game\GamJam22\GameJam\Source\GameJam\GameJam.h

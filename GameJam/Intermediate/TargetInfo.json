@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GameJam",
+			"Path": "E:\\Game Jam\\Game\\GamJam22\\GameJam\\Source\\GameJam.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GameJamEditor",
+			"Path": "E:\\Game Jam\\Game\\GamJam22\\GameJam\\Source\\GameJamEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
